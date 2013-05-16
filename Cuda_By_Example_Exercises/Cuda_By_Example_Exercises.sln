@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.2", "3.2.1 - Hello World!\3.2.1 - Hello World!.vcxproj", "{526D89C6-5F65-43AD-8F52-3B9B181C81D8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-2-1", "3.2.1 - Hello World!\3.2.1 - Hello World!.vcxproj", "{526D89C6-5F65-43AD-8F52-3B9B181C81D8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.2", "3.2.2 AKernalCall\3.2.2 AKernalCall.vcxproj", "{1C74276D-59B1-44CE-BE98-7FE81AF027D4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-2-2", "3.2.2 AKernalCall\3.2.2 AKernalCall.vcxproj", "{1C74276D-59B1-44CE-BE98-7FE81AF027D4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-2-3 PassingParameters", "3-2-3 PassingParameters\3-2-3 PassingParameters.vcxproj", "{94D3F6FC-FADE-4CCE-A6C2-011B526AE9EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-3 QueryingDevices", "3-3 QueryingDevices\3-3 QueryingDevices.vcxproj", "{2E68312F-5DED-492C-8BC1-D4209850F9C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-4 UsingDeviceProperties", "3-4 UsingDeviceProperties\3-4 UsingDeviceProperties.vcxproj", "{61D29921-609E-4C3E-A8FD-68B3EAD15AAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-2-1 GPUVectorSums", "4-2-1 GPUVectorSums\4-2-1 GPUVectorSums.vcxproj", "{0D85EB67-584B-4FC2-893D-3E3CCFF40FA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-2-2 JuliaSet", "4-2-2 JuliaSet\4-2-2 JuliaSet.vcxproj", "{40DCB4B7-2E9D-4EFF-87AB-212DE6198530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,22 @@ Global
 		{94D3F6FC-FADE-4CCE-A6C2-011B526AE9EA}.Debug|Win32.Build.0 = Debug|Win32
 		{94D3F6FC-FADE-4CCE-A6C2-011B526AE9EA}.Release|Win32.ActiveCfg = Release|Win32
 		{94D3F6FC-FADE-4CCE-A6C2-011B526AE9EA}.Release|Win32.Build.0 = Release|Win32
+		{2E68312F-5DED-492C-8BC1-D4209850F9C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E68312F-5DED-492C-8BC1-D4209850F9C3}.Debug|Win32.Build.0 = Debug|Win32
+		{2E68312F-5DED-492C-8BC1-D4209850F9C3}.Release|Win32.ActiveCfg = Release|Win32
+		{2E68312F-5DED-492C-8BC1-D4209850F9C3}.Release|Win32.Build.0 = Release|Win32
+		{61D29921-609E-4C3E-A8FD-68B3EAD15AAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61D29921-609E-4C3E-A8FD-68B3EAD15AAE}.Debug|Win32.Build.0 = Debug|Win32
+		{61D29921-609E-4C3E-A8FD-68B3EAD15AAE}.Release|Win32.ActiveCfg = Release|Win32
+		{61D29921-609E-4C3E-A8FD-68B3EAD15AAE}.Release|Win32.Build.0 = Release|Win32
+		{0D85EB67-584B-4FC2-893D-3E3CCFF40FA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D85EB67-584B-4FC2-893D-3E3CCFF40FA0}.Debug|Win32.Build.0 = Debug|Win32
+		{0D85EB67-584B-4FC2-893D-3E3CCFF40FA0}.Release|Win32.ActiveCfg = Release|Win32
+		{0D85EB67-584B-4FC2-893D-3E3CCFF40FA0}.Release|Win32.Build.0 = Release|Win32
+		{40DCB4B7-2E9D-4EFF-87AB-212DE6198530}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40DCB4B7-2E9D-4EFF-87AB-212DE6198530}.Debug|Win32.Build.0 = Debug|Win32
+		{40DCB4B7-2E9D-4EFF-87AB-212DE6198530}.Release|Win32.ActiveCfg = Release|Win32
+		{40DCB4B7-2E9D-4EFF-87AB-212DE6198530}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
