@@ -10,6 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="DotProduct.cu" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7087D69F-7C08-442F-96A9-BD467D5BE17D}</ProjectGuid>
     <RootNamespace>_5_3_1_DotProduct</RootNamespace>

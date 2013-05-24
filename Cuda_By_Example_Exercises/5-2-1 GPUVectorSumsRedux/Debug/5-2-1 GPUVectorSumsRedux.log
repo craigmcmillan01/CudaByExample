@@ -1,5 +1,5 @@
-﻿Build started 22/05/2013 19:26:55.
-     1>Project "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\5-2-1 GPUVectorSumsRedux\5-2-1 GPUVectorSumsRedux.vcxproj" on node 2 (build target(s)).
+﻿Build started 24/05/2013 13:14:01.
+     1>Project "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\5-2-1 GPUVectorSumsRedux\5-2-1 GPUVectorSumsRedux.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\5-2-1 GPUVectorSumsRedux.unsuccessfulbuild" because "AlwaysCreate" was specified.
        AddCudaCompileDeps:
@@ -8,17 +8,17 @@
        Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
        CudaBuild:
          Compiling CUDA source file GPUVectorSumsRedux.cu...
-         cmd.exe /C "C:\Users\craig\AppData\Local\Temp\tmp8922b70412f54c969f0fa3bd89b31394.cmd"
+         cmd.exe /C "C:\Users\craig\AppData\Local\Temp\tmp14b933aa08944b4ab7a48b80f7515536.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\GPUVectorSumsRedux.cu.obj" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\5-2-1 GPUVectorSumsRedux\GPUVectorSumsRedux.cu"
          
          C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\5-2-1 GPUVectorSumsRedux>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\GPUVectorSumsRedux.cu.obj" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\5-2-1 GPUVectorSumsRedux\GPUVectorSumsRedux.cu" 
          GPUVectorSumsRedux.cu
-         tmpxft_00001490_00000000-2_GPUVectorSumsRedux.cudafe1.gpu
-         tmpxft_00001490_00000000-7_GPUVectorSumsRedux.cudafe2.gpu
+         tmpxft_00002100_00000000-2_GPUVectorSumsRedux.cudafe1.gpu
+         tmpxft_00002100_00000000-7_GPUVectorSumsRedux.cudafe2.gpu
          GPUVectorSumsRedux.cu
-         tmpxft_00001490_00000000-2_GPUVectorSumsRedux.cudafe1.cpp
-         tmpxft_00001490_00000000-12_GPUVectorSumsRedux.ii
-         Deleting file "tmpxft_00001490_00000000-8_GPUVectorSumsRedux.cpp3.o".
+         tmpxft_00002100_00000000-2_GPUVectorSumsRedux.cudafe1.cpp
+         tmpxft_00002100_00000000-12_GPUVectorSumsRedux.ii
+         Deleting file "tmpxft_00002100_00000000-8_GPUVectorSumsRedux.cpp3.o".
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -45,4 +45,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.18
+Time Elapsed 00:00:11.81
