@@ -1,0 +1,36 @@
+﻿Build started 30/05/2013 15:07:57.
+     1>Project "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\6-3 RayNoConstMem\6-3 RayNoConstMem.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\6-3 RayNoConstMem.unsuccessfulbuild".
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\6-3 RayNoConstMem.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\6-3 RayNoConstMem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\6-3 RayNoConstMem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\6-3 RayNoConstMem.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         "Debug\6-3 RayNoConstMem.exe.embed.manifest.res"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\6-3 RayNoConstMem.exe.embed.manifest" /manifest "Debug\6-3 RayNoConstMem.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\6-3 RayNoConstMem.exe.embed.manifest.res" "Debug\6-3 RayNoConstMem_manifest.rc" 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\6-3 RayNoConstMem.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\6-3 RayNoConstMem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\6-3 RayNoConstMem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\6-3 RayNoConstMem.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         "Debug\6-3 RayNoConstMem.exe.embed.manifest.res"
+         6-3 RayNoConstMem.vcxproj -> C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\6-3 RayNoConstMem.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart32_50_35.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart64_50_35.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\6-3 RayNoConstMem.unsuccessfulbuild".
+         Touching "Debug\6-3 RayNoConstMem.lastbuildstate".
+     1>Done Building Project "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\6-3 RayNoConstMem\6-3 RayNoConstMem.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.17

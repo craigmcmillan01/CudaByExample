@@ -1,0 +1,47 @@
+﻿Build started 30/05/2013 15:56:27.
+     1>Project "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\7-3 HeatGlobalMem\7-3 HeatGlobalMem.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\7-3 HeatGlobalMem.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\7-3 HeatGlobalMem\kernel.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\craig\AppData\Local\Temp\tmpf68c41bd1138451baf9f0c3502fce1a0.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\kernel.cu.obj" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\7-3 HeatGlobalMem\kernel.cu"
+         
+         C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\7-3 HeatGlobalMem>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\kernel.cu.obj" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\7-3 HeatGlobalMem\kernel.cu" 
+         kernel.cu
+         tmpxft_00003024_00000000-2_kernel.cudafe1.gpu
+         tmpxft_00003024_00000000-7_kernel.cudafe2.gpu
+         kernel.cu
+         tmpxft_00003024_00000000-2_kernel.cudafe1.cpp
+         tmpxft_00003024_00000000-12_kernel.ii
+         Deleting file "tmpxft_00003024_00000000-8_kernel.cpp3.o".
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\7-3 HeatGlobalMem.exe.embed.manifest.res" "Debug\7-3 HeatGlobalMem_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\7-3 HeatGlobalMem.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\7-3 HeatGlobalMem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\7-3 HeatGlobalMem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\7-3 HeatGlobalMem.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         "Debug\7-3 HeatGlobalMem.exe.embed.manifest.res"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\7-3 HeatGlobalMem.exe.embed.manifest" /manifest "Debug\7-3 HeatGlobalMem.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\7-3 HeatGlobalMem.exe.embed.manifest.res" "Debug\7-3 HeatGlobalMem_manifest.rc" 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\7-3 HeatGlobalMem.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\7-3 HeatGlobalMem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\7-3 HeatGlobalMem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\7-3 HeatGlobalMem.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         "Debug\7-3 HeatGlobalMem.exe.embed.manifest.res"
+         7-3 HeatGlobalMem.vcxproj -> C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\7-3 HeatGlobalMem.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart32_50_35.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart64_50_35.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\7-3 HeatGlobalMem.unsuccessfulbuild".
+         Touching "Debug\7-3 HeatGlobalMem.lastbuildstate".
+     1>Done Building Project "C:\Users\craig\Documents\GitHub\Cuda_Examples\CudaByExample\Cuda_By_Example_Exercises\7-3 HeatGlobalMem\7-3 HeatGlobalMem.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.01
