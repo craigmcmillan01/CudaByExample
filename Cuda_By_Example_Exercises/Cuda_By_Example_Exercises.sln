@@ -31,6 +31,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-3 HeatGlobalMem", "7-3 He
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-3 HeatTex2DMem", "7-3 HeatTex2DMem\7-3 HeatTex2DMem.vcxproj", "{F01086F9-D2AA-43FE-B073-59CABADF6731}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8-2 GraphicsInteroperation", "8-2 GraphicsInteroperation\8-2 GraphicsInteroperation.vcxproj", "{6A01F7D3-8376-4712-A630-E0B3BDB249C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8-3 GPURippleInterop", "8-3 GPURippleInterop\8-3 GPURippleInterop.vcxproj", "{8D7E6C67-1FA3-487A-A64E-C87D0CC0602C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8-4 HeatTransferInterop", "8-4 HeatTransferInterop\8-4 HeatTransferInterop.vcxproj", "{6FCC60DB-6602-401A-8E28-8FD94AC9B70F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -97,6 +103,18 @@ Global
 		{F01086F9-D2AA-43FE-B073-59CABADF6731}.Debug|Win32.Build.0 = Debug|Win32
 		{F01086F9-D2AA-43FE-B073-59CABADF6731}.Release|Win32.ActiveCfg = Release|Win32
 		{F01086F9-D2AA-43FE-B073-59CABADF6731}.Release|Win32.Build.0 = Release|Win32
+		{6A01F7D3-8376-4712-A630-E0B3BDB249C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A01F7D3-8376-4712-A630-E0B3BDB249C1}.Debug|Win32.Build.0 = Debug|Win32
+		{6A01F7D3-8376-4712-A630-E0B3BDB249C1}.Release|Win32.ActiveCfg = Release|Win32
+		{6A01F7D3-8376-4712-A630-E0B3BDB249C1}.Release|Win32.Build.0 = Release|Win32
+		{8D7E6C67-1FA3-487A-A64E-C87D0CC0602C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D7E6C67-1FA3-487A-A64E-C87D0CC0602C}.Debug|Win32.Build.0 = Debug|Win32
+		{8D7E6C67-1FA3-487A-A64E-C87D0CC0602C}.Release|Win32.ActiveCfg = Release|Win32
+		{8D7E6C67-1FA3-487A-A64E-C87D0CC0602C}.Release|Win32.Build.0 = Release|Win32
+		{6FCC60DB-6602-401A-8E28-8FD94AC9B70F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FCC60DB-6602-401A-8E28-8FD94AC9B70F}.Debug|Win32.Build.0 = Debug|Win32
+		{6FCC60DB-6602-401A-8E28-8FD94AC9B70F}.Release|Win32.ActiveCfg = Release|Win32
+		{6FCC60DB-6602-401A-8E28-8FD94AC9B70F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
